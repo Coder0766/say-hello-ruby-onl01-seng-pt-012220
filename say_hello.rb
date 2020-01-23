@@ -1,9 +1,9 @@
 # Build your say_he!llo method here
 def say_hello(name = "Ruby programmer!")
-  puts "Hello, #{"Courtney!"}"
+  puts "Hello, #{"name!"}"
 end
 
-say_hello("Courtney")
+say_hello(name)
 
 # def greeting(name = "Ruby programmer!")
 #   puts "Hello, #{name}"
